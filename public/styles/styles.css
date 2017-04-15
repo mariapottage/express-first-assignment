@@ -1,0 +1,129 @@
+body {
+  background-image: url("/images/AWheatfield.jpg");
+  color: darkblue;
+}
+
+h3 {
+  font-family: cursive;
+	font-size: 30px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 30px;
+}
+
+p {
+	font-size: 20px;
+}
+
+#signature {
+  position: absolute;
+  width: 25%;
+  height: 100px;
+  right: 10%;
+}
+
+#signature img{
+  object-fit: cover;
+  width: 100%;
+}
+
+#art1 {
+    position: absolute;
+    width: 20%;
+    height: 200px;
+    right: -4%;
+    top: 217px;
+    background: url("/images/GreenViolinist.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#art2 {
+    position: absolute;
+    width: 20%;
+    height: 200px;
+    right: 12%;
+    top: 217px;
+    background: url("/images/IandTheVillage.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#art3 {
+    position: absolute;
+    width: 20%;
+    height: 200px;
+    right: 28%;
+    top: 217px;
+    background: url("/images/ParisThroughTheWindows.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+#art4 {
+    position: absolute;
+    width: 20%;
+    height: 200px;
+    right: 44%;
+    top: 217px;
+    background: url("/images/Peace.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#art5 {
+    position: absolute;
+    width: 20%;
+    height: 200px;
+    right: 58%;
+    top: 217px;
+    background: url("/images/TheSoldierDrinks.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+#art6 {
+    position: absolute;
+    width: 20%;
+    height: 200px;
+    right: 79%;
+    top: 217px;
+    background: url("/images/OverTheTown.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkblue;
+    position: fixed;
+    bottom: -65px;
+    width: 100%;
+    left: 0px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: lightblue;
+}
+
+.active {
+    background-color: darkcyan;
+}
